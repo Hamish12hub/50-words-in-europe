@@ -1,0 +1,360 @@
+body {
+    background-color: rgb(114, 235, 237)
+}
+
+
+
+.large_box_one{
+    height: 2100px;
+    width: 1600px;
+}
+
+.large_box{
+    height: 2100px;
+    width: 1600px;
+    margin: auto;
+}
+
+.advert_left{
+    border: 1px solid black;
+    height: 2100px;
+    width: 300px;
+    margin-left: 0px;
+    position: absolute;
+}
+.advert_right{
+    border: 1px solid black;
+    height: 2100px;
+    width: 300px;
+    margin-left: 1300px;
+    position: absolute;
+  }
+
+.information {
+    margin: auto;
+    background-color: white;
+    border: 3px solid black;
+    height: 240px;
+    width: 800px;
+}
+
+
+
+
+.text{
+    margin: auto;
+    width: 760px;
+    font-family: Georgia, serif;
+}
+
+.alsotext{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title {
+    width:770px;
+    height: 100px;
+    border: 3px solid black;
+    background-color: white;
+    margin: auto;
+    font-size: 50px;
+    font-family: Georgia, serif;
+
+}
+
+.box{
+width: 100%;   
+}
+
+.titletext{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.page{
+    width: 900px;
+    height: 1470px;
+    border: 3px solid black;
+    background-color: white;
+    margin: auto;
+}
+
+
+.langugesbox{
+    width: 100%;  
+}
+
+.insidelangugesbox{
+    width: 200px;
+    margin: auto;
+}
+
+.languges{
+height: 60px;
+width: 200px;
+font-size: 30px;
+background-color: white;
+border: 3px solid black;
+font-family: Georgia, serif;
+
+}
+
+.one_topbox{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.two_leftbox{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.three_rightbox{
+    height: 190px;
+    width: 300px;
+    background-color: white;
+    margin-left: 580px;
+    border: 3px solid black;
+    margin-top: -128px;
+}
+
+.four_title{
+    font-size: 45px;
+    color: black;
+    font-family: Georgia, serif;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+.five_img{
+    width: 100%;
+    height: 100%;
+}
+
+.six_mainbox{
+    width: 100%;
+    height: 1430px;
+    margin-top: 84px;
+}
+.seven_leftbox{
+    width: 375px;
+    height: 1400px;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.eight_rightbox{
+    width: 375px;
+    height: 1400px;
+    margin-top: -1350px;
+    margin-left: 475px;
+}
+
+table, th, td {
+    text-align: center;
+    margin-left: -45;
+    width: 100%;
+    font-size: 28px;
+    color: black;
+    font-family: Georgia, serif;
+  }
+
+
+.Bulgarianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+}
+
+.Croatianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.Czechpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+
+.Danishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Dutchpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Englishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Estonianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Finnishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Frenchpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Germanpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Greekpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Hungarianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Irishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Italianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Latvianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Lithuanianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Maltesepage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Polishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Portuguesepage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Romanianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Slovakpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Slovenianpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Spanishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
+.Swedishpage{
+    width: 900px;
+    height: 1470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+}
+
