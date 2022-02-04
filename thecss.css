@@ -81,6 +81,7 @@ width: 100%;
     border: 3px solid black;
     background-color: white;
     margin: auto;
+    border-radius: 2%;
 }
 
 
@@ -173,6 +174,7 @@ table, th, td {
     background-color: white;
     z-index: 2;
     position: absolute;
+    border-radius: 2%;
 }
 
 .Croatianpage{
@@ -181,6 +183,7 @@ table, th, td {
     background-color: white;
     z-index: 1;
     position: absolute;
+    border-radius: 2%;
 }
 
 
@@ -190,6 +193,7 @@ table, th, td {
     background-color: white;
     z-index: 1;
     position: absolute;
+    border-radius: 2%;
 }
 
 
@@ -199,6 +203,7 @@ table, th, td {
     background-color: white;
     z-index: 1;
     position: absolute;
+    border-radius: 2%;
 }
 
 .Dutchpage{
@@ -207,6 +212,7 @@ table, th, td {
     background-color: white;
     z-index: 1;
     position: absolute;
+    border-radius: 2%;
 }
 
 .Englishpage{
