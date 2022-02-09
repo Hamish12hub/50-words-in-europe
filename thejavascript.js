@@ -145,3 +145,10 @@ dropdown.addEventListener('change', function(event) {
         document.getElementsByClassName("Swidishpage")[0].style.zIndex = 1;
     }
 });
+
+function functionone(){
+    window.open("#");
+}
+function functiontwo(){
+    window.open("mailto:50wordsineurope@gmail.com");
+}
