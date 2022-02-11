@@ -147,7 +147,7 @@ dropdown.addEventListener('change', function(event) {
 });
 
 function functionone(){
-    window.open("https://www.instagram.com/50_wordsineurope/");
+    window.open("https://www.instagram.com/50wordsineurope/");
 }
 function functiontwo(){
     window.open("mailto:50wordsineurope@gmail.com");
