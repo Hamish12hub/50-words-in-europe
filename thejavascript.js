@@ -1,150 +1,397 @@
-let dropdown = document.querySelector('select');
-dropdown.addEventListener('change', function(event) {
-   
+let dropdownone = document.querySelector(".list_languges_one");
+dropdownone.addEventListener('change', function(event) {
     if     (event.target.value === "Bulgarian") {
-        document.getElementsByClassName("Bulgarianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_bulgarian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_bulgarian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Bulgarianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_bulgarian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_bulgarian_table_three")[0].style.zIndex = 1;
     }
-    
     if     (event.target.value === "Croatian") {
-        document.getElementsByClassName("Croatianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_croatian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_croatian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Croatianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_croatian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_croatian_table_three")[0].style.zIndex = 1;
     }
-    
     if     (event.target.value === "Czech") {
-        document.getElementsByClassName("Czechpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_czech_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_czech_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Czechpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_czech_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_czech_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Danish") {
-        document.getElementsByClassName("Danishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_danish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_danish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Danishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_danish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_danish_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Dutch") {
-        document.getElementsByClassName("Dutchpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_dutch_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_dutch_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Dutchpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_dutch_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_dutch_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "English") {
-        document.getElementsByClassName("Englishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_english_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_english_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Englishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_english_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_english_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Estonian") {
-        document.getElementsByClassName("Estonianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_estonian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_estonian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Estonianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_estonian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_estonian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Finnish") {
-        document.getElementsByClassName("Finnishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_finnish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_finnish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Finnishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_finnish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_finnish_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "French") {
-        document.getElementsByClassName("Frenchpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_french_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_french_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Frenchpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_french_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_french_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "German") {
-        document.getElementsByClassName("Germanpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_german_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_german_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Germanpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_german_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_german_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Greek") {
-        document.getElementsByClassName("Greekpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_greek_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_greek_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Greekpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_greek_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_greek_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Hungarian") {
-        document.getElementsByClassName("Hungarianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_hungarian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_hungarian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Hungarianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_hungarian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_hungarian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Irish") {
-        document.getElementsByClassName("Irishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_irish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_irish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Irishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_irish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_irish_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Italian") {
-        document.getElementsByClassName("Italianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_italian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_italian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("ItalianPage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_italian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_italian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Latvian") {
-        document.getElementsByClassName("Latvianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_latvian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_latvian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Latvianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_latvian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_latvian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Lithuanian") {
-        document.getElementsByClassName("Lithuanianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_lithuanian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_lithuanian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Lithuanianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_lithuanian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_lithuanian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Maltese") {
-        document.getElementsByClassName("Maltesepage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_maltese_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_maltese_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Maltesepage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_maltese_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_maltese_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Polish") {
-        document.getElementsByClassName("Polishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_polish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_polish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Polishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_polish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_polish_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Portuguese") {
-        document.getElementsByClassName("Portuguesepage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_portuguese_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_portuguese_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Portuguesepage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_portuguese_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_portuguese_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Romanian") {
-        document.getElementsByClassName("Romanianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_romanian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_romanian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Romanianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_romanian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_romanian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Slovak") {
-        document.getElementsByClassName("Slovakpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovak_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovak_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Slovakpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovak_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovak_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Slovenian") {
-        document.getElementsByClassName("Slovenianpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovenian_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovenian_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Slovenianpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovenian_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovenian_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Spanish") {
-        document.getElementsByClassName("Spanishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_spanish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_spanish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Spanishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_spanish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_spanish_table_three")[0].style.zIndex = 1;
     }
-
     if     (event.target.value === "Swedish") {
-        document.getElementsByClassName("Swedishpage")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_swedish_table_one")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_swedish_table_three")[0].style.zIndex = 10;
     } else {
-        document.getElementsByClassName("Swidishpage")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_swedish_table_one")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_swedish_table_three")[0].style.zIndex = 1;
     }
 });
+
+let dropdowntwo = document.querySelector(".list_languges_two");
+dropdowntwo.addEventListener('change', function(event) {
+    if     (event.target.value === "Bulgarian") {
+        document.getElementsByClassName("bulgarian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_bulgarian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_bulgarian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("bulgarian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_bulgarian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_bulgarian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Croatian") {
+        document.getElementsByClassName("croatian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_croatian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_croatian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("croatian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_croatian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_croatian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Czech") {
+        document.getElementsByClassName("czech_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_czech_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_czech_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("czech_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_czech_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_czech_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Danish") {
+        document.getElementsByClassName("danish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_danish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_danish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("danish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_danish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_danish_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Dutch") {
+        document.getElementsByClassName("dutch_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_dutch_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_dutch_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("dutch_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_dutch_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_dutch_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "English") {
+        document.getElementsByClassName("english_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_english_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_english_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("english_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_english_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_english_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Estonian") {
+        document.getElementsByClassName("finnish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_estonian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_estonian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("finnish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_estonian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_estonian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Finnish") {
+        document.getElementsByClassName("finnish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_finnish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_finnish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("finnish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_finnish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_finnish_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "French") {
+        document.getElementsByClassName("french_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_french_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_french_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("french_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_french_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_french_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "German") {
+        document.getElementsByClassName("german_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_german_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_german_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("german_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_german_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_german_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Greek") {
+        document.getElementsByClassName("greek_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_greek_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_greek_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("greek_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_greek_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_greek_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Hungarian") {
+        document.getElementsByClassName("hungarian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_hungarian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_hungarian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("hungarian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_hungarian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_hungarian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Irish") {
+        document.getElementsByClassName("irish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_irish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_irish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("irish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_irish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_irish_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Italian") {
+        document.getElementsByClassName("italian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_italian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_italian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("italian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_italian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_italian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Latvian") {
+        document.getElementsByClassName("estonian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_latvian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_latvian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("estonian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_latvian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_latvian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Lithuanian") {
+        document.getElementsByClassName("lithuanian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_lithuanian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_lithuanian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("lithuanian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_lithuanian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_lithuanian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Maltese") {
+        document.getElementsByClassName("maltese_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_maltese_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_maltese_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("maltese_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_maltese_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_maltese_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Polish") {
+        document.getElementsByClassName("polish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_polish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_polish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("polish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_polish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_polish_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Portuguese") {
+        document.getElementsByClassName("portuguese_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_portuguese_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_portuguese_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("portuguese_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_portuguese_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_portuguese_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Romanian") {
+        document.getElementsByClassName("romanian_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_romanian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_romanian_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("romanian_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_romanian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_romanian_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Slovak") {
+        document.getElementsByClassName("slovak_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovak_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovak_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("slovak_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovak_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovak_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Slovenian") {
+        document.getElementsByClassName("div_slovenian_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_slovenian_table_four")[0].style.zIndex = 10;
+        document.getElementsByClassName("slovenian_flag")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("div_slovenian_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_slovenian_table_four")[0].style.zIndex = 1;
+        document.getElementsByClassName("slovenian_flag")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Spanish") {
+        document.getElementsByClassName("spanish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_spanish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_spanish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("spanish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_spanish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_spanish_table_four")[0].style.zIndex = 1;
+    }
+    if     (event.target.value === "Swedish") {
+        document.getElementsByClassName("swedish_flag")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_swedish_table_two")[0].style.zIndex = 10;
+        document.getElementsByClassName("div_swedish_table_four")[0].style.zIndex = 10;
+    } else {
+        document.getElementsByClassName("swedish_flag")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_swedish_table_two")[0].style.zIndex = 1;
+        document.getElementsByClassName("div_swedish_table_four")[0].style.zIndex = 1;
+    }
+});
+
+dropdownone.value = "English";
+dropdowntwo.value = "French";
 
 function functionone(){
     window.open("https://www.instagram.com/50wordsineurope/");
