@@ -1,3 +1,49 @@
+// intro
+
+// function links_buttons_one_function(){
+//     // window.scrollTo(0, 0);
+// }
+// function links_buttons_one_function(){
+//     // window.scrollTo(0, 0);
+// }
+// function links_buttons_one_function(){
+//     // window.scrollTo(0, 0);
+// }
+// function links_buttons_one_function(){
+//     // window.scrollTo(0, 0);
+// }
+
+
+const navSLIDE = () => {
+    const burger = document.querySelector(".INTRO_burger");
+    const nav = document.querySelector(".INTRO_nav-links");
+    const navLinks = document.querySelectorAll(".INTRO_nav-links li");
+
+    burger.addEventListener("click", () => {
+        
+        nav.classList.toggle("INTRO_nav-active");
+        
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = "";
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+            }
+        });
+
+        burger.classList.toggle("toggle");
+
+    });
+
+    
+}
+navSLIDE();
+
+
+// home
+
+
+
 let dropdownone = document.querySelector(".list_languges_one");
 dropdownone.addEventListener('change', function(event) {
     if     (event.target.value === "Bulgarian") {
