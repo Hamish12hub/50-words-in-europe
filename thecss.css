@@ -312,6 +312,61 @@ height: 500px;
 
 
 
+
+.information_thepxbox{
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    min-width: 1006px;
+}
+.information_information_paragrapgh{
+    background-color: #FFFFFF;
+    
+    min-width: 1006px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.information_inside_paragrapgh{
+font-size: 30px;
+border: 5px pink;
+width: 1006px;
+}
+.information_list{
+    font-family: Arial, sans-serif;
+    list-style: none;
+}
+.information_one:before{
+    content: "\272F ";
+    margin-right: 15px;
+}
+.information_two{
+    color: #FFFFFF;
+}
+.information_three:before{
+    content: "\272F ";
+    margin-right: 15px;
+}
+.information_four{
+    color: #FFFFFF;
+}
+.information_five:before{
+    content: "\272F ";
+    margin-right: 15px;
+}
+.information_six{
+    color: #FFFFFF;
+}
+.information_seven:before{
+    content: "\272F ";
+    margin-right: 15px;
+}
+
+
+
+
 .bottemboxoutside{
     /* margin-top: 80px; */
     width: 100%;
