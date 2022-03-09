@@ -1,17 +1,18 @@
 // intro
 
-// function links_buttons_one_function(){
-//     // window.scrollTo(0, 0);
-// }
-// function links_buttons_one_function(){
-//     // window.scrollTo(0, 0);
-// }
-// function links_buttons_one_function(){
-//     // window.scrollTo(0, 0);
-// }
-// function links_buttons_one_function(){
-//     // window.scrollTo(0, 0);
-// }
+function links_buttons_one_function(){
+    window.scrollTo(1000);
+    // console.log("hello");
+}
+function links_buttons_two_function(){
+    // window.scrollTo(0, 0);
+}
+function links_buttons_three_function(){
+    // window.scrollTo(0, 0);
+}
+function links_buttons_four_function(){
+    window.scrollTo(bottom);
+}
 
 
 const navSLIDE = () => {

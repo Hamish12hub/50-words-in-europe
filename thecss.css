@@ -410,11 +410,13 @@ width: 1006px;
     height: 75px;
     float: right;
     margin-top: -77px;
+    border-radius: 16px;
 }
 .inside_instagram{
     width: 70px;
     height: auto;
     max-width: 70px;
+    border-radius: 16px;
 }
 .buttonbox{
     background-color: black;
